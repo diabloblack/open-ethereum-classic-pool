@@ -42,7 +42,7 @@ screen -dmS geth ./geth --fast --cache=1024
 Then, install Open Ethereum Classic Pool
 
 git clone https://github.com/diabloblack/open-ethereum-classic-pool.git
-cd open-ethereum-pool
+cd open-ethereum-classic-pool
 export GOROOT=/usr/local/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export GOPATH=$HOME/go
@@ -154,12 +154,11 @@ Ok, exit the console by typing 'exit'
 
 Go back to Geth with 'screen -r geth', stop Geth with CTRL-C. The screen session should also terminate.
 
-Create a new screen session 'screen -S geth' and this time we are going to start geth with a command to unlock the account you just created
-and also allow rpc calls.
+Create a new screen session 'screen -S geth' and this time we are going to start geth with a command to unlock the account you just created and also allow rpc calls.
 
 ./geth --unlock=0 --rpc --cache=1024
 
-You will be prompted for your password, enter it then wait a few minutes for Geth to catch up with the network again.
+You will be prompted for your account password, enter it then wait a few minutes for Geth to catch up with the network again.
 When you start seeing 'import' instead of 'sync' you should be good.
 
 CTRL-A then CTRL-D to exit the screen session and leave Geth running in the background.
