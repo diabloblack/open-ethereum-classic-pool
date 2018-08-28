@@ -6,7 +6,7 @@
 
 ### Features
 
-**This pool is being further developed to provide an easy to use pool for Ethereum miners. This software is functional however an optimised release of the pool is expected soon. Testing and bug submissions are welcome!**
+**This fork has been modified for Ethereum Classic with current rewards of 4ETC and 0.125ETC for Uncles**
 
 * Support for HTTP and Stratum mining
 * Detailed block stats with luck percentage and full reward
