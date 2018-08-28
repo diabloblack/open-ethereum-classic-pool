@@ -22,6 +22,8 @@
 
 ### Building on Linux
 
+*** USE Full Setup Guide.txt FOR DETAILED INSTRUCTIONS ***
+
 Dependencies:
 
   * go >= 1.9
