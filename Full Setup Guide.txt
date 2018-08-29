@@ -132,7 +132,8 @@ screen -r geth
 
 It can sometimes take a long time to sync and there's no point moving on to the next step until it has.
 You want to see 'import' not 'sync'. You can also check the current block height on any explorer to see how close it is.
-The last ~100 blocks can take a very long time to sync. Once you're sure it's done and is importing blocks one at a time, move on to the next step.
+The last ~100 blocks can take a very long time to sync. Once you're sure it's done and is importing blocks one at a time,
+move on to the next step.
 
 CTRL-A then CTRL-D to exit the geth screen. We're going to attach a console to the geth instance already running.
 
@@ -154,7 +155,8 @@ Ok, exit the console by typing 'exit'
 
 Go back to Geth with 'screen -r geth', stop Geth with CTRL-C. The screen session should also terminate.
 
-Create a new screen session 'screen -S geth' and this time we are going to start geth with a command to unlock the account you just created and also allow rpc calls.
+Create a new screen session 'screen -S geth' and this time we are going to start geth with a command to unlock
+the account you just created and also allow rpc calls.
 
 ./geth --unlock=0 --rpc --cache=1024
 
@@ -198,6 +200,6 @@ cd open-ethereum-classic-pool
 ./build/bin/open-ethereum-classic-pool config.json
 
 
-You can watch this screen to see miners connecting and sending shares. Be sure to exit with CTRL-A then CTRL-D to leave the pool running.
-In a web browser, enter the IP or Domain Name of your PC/VPS to see the Pool.
-
+You can watch this screen to see miners connecting and sending shares.
+Be sure to exit with CTRL-A then CTRL-D to leave the pool running.
+Using any web browser, enter the IP or Domain Name of your PC/VPS to see the Pool.
