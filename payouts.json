@@ -95,7 +95,7 @@
 	"payouts": {
 		"enabled": true,
 		"requirePeers": 15,
-		"interval": "120m",
+		"interval": "180m",
 		"daemon": "http://127.0.0.1:8545",
 		"timeout": "10s",
 		"address": "YourPoolWalletAddressHere",
