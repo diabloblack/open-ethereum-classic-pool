@@ -113,7 +113,7 @@ Save and Close default
 
 Go back to Putty and restart nginx
 
-service restart nginx
+service nginx restart
 
 Ok, a little bit more installation then we can start the pool. This will build the front end.
 
