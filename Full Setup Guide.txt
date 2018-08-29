@@ -181,7 +181,7 @@ First let's run the unlocker.
 
 screen -S unlocker
 cd open-ethereum-classic-pool
-./build/bin/open-ethereum-classic-pool unlocker.json
+./build/bin/open-ethereum-pool unlocker.json
 
 CTRL-A then CTRL-D to exit that screen and leave it running in the background
 
@@ -189,7 +189,7 @@ Second let's run the payouts module
 
 screen -S payouts
 cd open-ethereum-classic-pool
-./build/bin/open-ethereum-classic-pool payouts.json
+./build/bin/open-ethereum-pool payouts.json
 
 CTRL-A then CTRL-D to exit that screen and leave it running in the background
 
@@ -197,7 +197,7 @@ AND finally, the main pool
 
 screen -S OECP
 cd open-ethereum-classic-pool
-./build/bin/open-ethereum-classic-pool config.json
+./build/bin/open-ethereum-pool config.json
 
 
 You can watch this screen to see miners connecting and sending shares.
